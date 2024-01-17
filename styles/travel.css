@@ -55,7 +55,7 @@ h3{
 /* banner styles */
 
 .banner{
-    background-image: url('//Images/Group13.png');
+    background-image: url('../Images/Group13.png');
     background-repeat: no-repeat;
     margin-top: 40px;
     height: 500px;
