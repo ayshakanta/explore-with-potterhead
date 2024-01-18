@@ -194,7 +194,7 @@ h3{
     background-color: rgba(233, 68, 68, 0.05);
     padding: 30px;
     border-radius: 10px;
-    margin-left: 30%;
+    margin-left: 25%;
 }
 .hotel-and-service{
     display: flex;
@@ -202,6 +202,68 @@ h3{
     margin-bottom: 20px;
     margin-top: 20px;
 }
+/* newsletter styles */
+
+.newsletter{
+    display: flex;
+    padding: 50px 135px;
+    justify-content: space-between;
+}
+
+
+.newsletter-text{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+#newsletter-input{
+    padding: 20px ;
+    text-align: left;
+    background-color: rgba(19, 19, 24, 0.05);
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+.newsletter-btn{
+    padding: 15px;
+    border: none;
+    background-color: #FF5400;
+    color: white;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+/* footer styles */
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(19, 19, 24, 0.05);
+    text-align: center;
+}
+.footer-top{
+    padding-top: 100px;
+    padding-bottom: 10px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.footer-img{
+    
+    padding: 20px;
+}
+footer hr{
+    width: 800px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
 
 
 /* responsive media queries */
@@ -289,15 +351,35 @@ h3{
     
     }
     .why-choose-use{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         padding: 20px;
+        margin: 20px;
         
     
     }
     .price{
         margin-left: 0%;
-        align-items: center;
         padding-left: 0%;
 
+    }
+    /* newsletter responsive  */
+
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8px 10px;
+        
+    }
+    .newsletter-img{
+        width: 300px;
+        padding: 0px;
+
+    }
+    .newsletter-text{
+        margin-bottom: 20px;
     }
         
         
