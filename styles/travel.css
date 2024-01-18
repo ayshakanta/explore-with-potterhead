@@ -61,6 +61,7 @@ h3{
     height: 500px;
     text-align: center;
     border-radius: 16px;
+    
 
     
     
@@ -153,8 +154,8 @@ h3{
     display: flex;
     gap: 15px;
     margin: 15px 0px;
-}    
-    
+} 
+
 .second-row{
     display: flex;
     gap: 15px;
@@ -274,14 +275,16 @@ footer hr{
     }
     nav{
         flex-direction: column;
-        align-items: center;
+        text-align: center;
     }
     .pic-heading{
         display: block;
         text-align: center;
     }
     nav li{
-        margin: 5px 0px ;
+        margin: 2px;
+        
+       
     }
     .banner{
         height: 340px;
