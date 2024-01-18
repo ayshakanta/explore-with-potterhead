@@ -357,11 +357,13 @@ footer hr{
         padding: 20px;
         margin: 20px;
         
+        
     
     }
     .price{
-        margin-left: 0%;
-        padding-left: 0%;
+        padding-left: 0px;
+        margin-left: 0px;
+        
 
     }
     /* newsletter responsive  */
@@ -369,17 +371,36 @@ footer hr{
     .newsletter{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        padding: 8px 10px;
+        text-align: center;
+        padding: 8px 10px; 
         
     }
-    .newsletter-img{
-        width: 300px;
-        padding: 0px;
+    #newsletter-img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+        
 
     }
     .newsletter-text{
         margin-bottom: 20px;
+    }
+
+
+    /* responsive footer */
+    footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .footer-top{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    footer hr{
+        width: 300px;
+        margin-bottom: 10px;
     }
         
         
